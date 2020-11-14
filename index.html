@@ -10,13 +10,13 @@
   <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">
     <a-marker preset="hiro">
       <video
-        id="mivideo"
+       id="mivideo"
         crossorigin="anonymous"
         playsinline
         webkitplaysinline
-        autoplay
+        autoplay="true"
         controls
-        muted
+        muted="false" 
         src="https://cdn.glitch.com/4fb197c5-b207-485f-8084-b95d5bc4f40c%2Fvideo_facebook_portada.mp4?v=1605325902761"
       ></video>
       <a-video src="#mivideo" position="0 0 0" rotation="270 0 0"></a-video>
