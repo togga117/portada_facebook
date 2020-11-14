@@ -3,7 +3,11 @@
 <!-- aframe-keyboard-controls.js Permite todas las accion utilizando el Teclado -->
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/dev/aframe/build/aframe-ar.js"></script>
 <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-
+<div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
+		<button>
+     Play Sound
+    </button>
+	</div>
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
 <body style="margin : 0px; overflow: hidden;">
@@ -14,9 +18,9 @@
         crossorigin="anonymous"
         playsinline
         webkitplaysinline
-        autoplay="true"
+        autoplay
         controls
-        muted="false" 
+        muted= 
         src="https://cdn.glitch.com/4fb197c5-b207-485f-8084-b95d5bc4f40c%2Fvideo_facebook_portada.mp4?v=1605325902761"
       ></video>
       <a-video src="#mivideo" position="0 0 0" rotation="270 0 0"></a-video>
